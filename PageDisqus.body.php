@@ -8,7 +8,8 @@ class PageDisqus {
 		$wgPageDisqusShortname = strtolower( $wgPageDisqusShortname );
 
 		if ( empty( $wgPageDisqusShortname ) ) {
-			exit( 'Please set $wgPageDisqusShortname in LocalSettings.php' );
+			$shortname = wfMessage( 'pagedisqus-shortname' )->text();
+			exit( $shortname );
 		}
 
 		if ( $wgRequest->getVal( 'action', 'view' ) != 'view' ) {
@@ -23,18 +24,19 @@ class PageDisqus {
 			}
 		}
 
-		$before = wfMsgForContent( 'pagedisqus-before' );
-		
-		$after = wfMsgForContent( 'pagedisqus-after' );
+		$title = wfMessage( 'pagedisqus-title' )->text();
+		$noscript = wfMessage( 'pagedisqus-noscript' )->text();
 
-		$data = $before . "<script type=\"text/javascript\">
-			//<![CDATA[
+		$data = $title . '
+			<script type="text/javascript">
 			var disqus_developer = 0;
-			var disqus_url = \"" . $wgRequest->getFullRequestURL() . "\";
-			var disqus_title = \"" . $wgTitle->getText() . "\";
-			//]]>
+			var disqus_url = "' . $wgRequest->getFullRequestURL() . '";
+			var disqus_title = "' . $wgTitle->getText() . '";
 			</script>
-			<br /><div id=\"disqus_thread\"></div><script type=\"text/javascript\" src=\"http://disqus.com/forums/" . $wgPageDisqusShortname . "/embed.js\"></script><noscript><a href=\"http://disqus.com/forums/" . $wgPageDisqusShortname . "/?url=ref\">View the discussion thread.</a></noscript><a href=\"http://disqus.com\" class=\"dsq-brlink\">blog comments powered by <span class=\"logo-disqus\">Disqus</span></a>" . $after;
+			<br />
+			<div id="disqus_thread"></div>
+			<script type="text/javascript" src="http://disqus.com/forums' . $wgPageDisqusShortname . '/embed.js"></script>
+			<noscript><a href="http://disqus.com/forums' . $wgPageDisqusShortname . '/?url=ref">' . $noscript . '</a></noscript>';
 		return true;
 	}
 
@@ -54,7 +56,8 @@ class PageDisqus {
 		}
 
 		if ( empty( $wgPageDisqusShortname ) ) {
-			exit( 'Please set $wgPageDisqusShortname in LocalSettings.php' );
+			$shortname = wfMessage( 'pagedisqus-shortname' )->text();
+			exit( $shortname );
 		}
 
 		$text .= "<script type=\"text/javascript\">
