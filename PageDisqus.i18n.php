@@ -14,6 +14,8 @@ $messages['en'] = array(
 	'pagedisqus-shortname' => 'Please set <code>$wgPageDisqusShortname</code> in LocalSettings.php',
 );
 
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'pagedisqus-desc' => '{{desc|name=PageDisqus|url=https://www.mediawiki.org/wiki/Extension:PageDisqus}}',
 	'pagedisqus-title' => 'Title that appears at the bottom of every page, right before the Disqus comments.',
@@ -21,14 +23,14 @@ $messages['qqq'] = array(
 	'pagedisqus-shortname' => 'Error message when the Disqus shortname is missing.',
 );
 
-$messages['fi'] = array(
-	'pagedisqus-title' => 'Jaa mielipiteesi',
-);
-
+/** German (Deutsch)
+ */
 $messages['de'] = array(
 	'pagedisqus-title' => 'Teile deine Meinung mit',
 );
 
+/** Spanish (español)
+ */
 $messages['es'] = array(
 	'pagedisqus-desc' => 'Integra el servicio de comentarios Disqus',
 	'pagedisqus-title' => 'Comparte tu opinión',
@@ -36,6 +38,14 @@ $messages['es'] = array(
 	'pagedisqus-shortname' => 'Por favor define $wgPageDisqusShortname en LocalSettings.php',
 );
 
+/** Finnish (suomi)
+ */
+$messages['fi'] = array(
+	'pagedisqus-title' => 'Jaa mielipiteesi',
+);
+
+/** Russian (русский)
+ */
 $messages['ru'] = array(
 	'pagedisqus-desc' => 'Интеграция с сервисом комментариев Disqus',
 	'pagedisqus-title' => 'Комментарии',
