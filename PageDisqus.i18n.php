@@ -11,7 +11,7 @@ $messages['en'] = array(
 	'pagedisqus-desc' => 'Integrates Disqus commenting service',
 	'pagedisqus-title' => 'Share your opinion',
 	'pagedisqus-noscript' => 'View the discussion thread.',
-	'pagedisqus-shortname' => 'Please set $wgPageDisqusShortname in LocalSettings.php',
+	'pagedisqus-shortname' => 'Please set <code>$wgPageDisqusShortname</code> in LocalSettings.php',
 );
 
 $messages['qqq'] = array(

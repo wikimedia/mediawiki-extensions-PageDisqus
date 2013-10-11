@@ -12,10 +12,9 @@
  * @version 0.2
  */
 
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'PageDisqus',
-	'description'    => 'Integrates Disqus commenting service',
 	'descriptionmsg' => 'pagedisqus-desc',
 	'version'        => 0.2,
 	'author'         => array( 'Michael Platzer', 'Luis Felipe Schenone' ),
