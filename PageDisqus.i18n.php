@@ -107,3 +107,11 @@ $messages['uk'] = array(
 	'pagedisqus-noscript' => 'Переглянути гілку дискусії.',
 	'pagedisqus-shortname' => 'Будь ласка, встановіть <code>$wgPageDisqusShortname</code> в LocalSettings.php',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Liuxinyu970226
+ */
+$messages['zh-hans'] = array(
+	'pagedisqus-title' => '分享您的观点',
+	'pagedisqus-shortname' => '请在LocalSettings.php内设置<code>$wgPageDisqusShortname</code>',
+);
