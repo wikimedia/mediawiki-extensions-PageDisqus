@@ -49,6 +49,16 @@ $messages['fi'] = array(
 	'pagedisqus-title' => 'Jaa mielipiteesi',
 );
 
+/** French (français)
+ * @author Gomoko
+ */
+$messages['fr'] = array(
+	'pagedisqus-desc' => 'Intègre le service de commentaires Disqus',
+	'pagedisqus-title' => 'Partager votre avis',
+	'pagedisqus-noscript' => 'Afficher le fil de discussion',
+	'pagedisqus-shortname' => 'Veuillez définir <code>$wgPageDisqusShortname</code> dans LocalSettings.php',
+);
+
 /** Galician (galego)
  * @author Toliño
  */
