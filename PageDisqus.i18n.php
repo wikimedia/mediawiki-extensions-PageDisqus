@@ -98,6 +98,15 @@ $messages['mk'] = array(
 	'pagedisqus-shortname' => 'Задајте го <code>$wgPageDisqusShortname</code> во LocalSettings.php',
 );
 
+/** Polish (polski)
+ * @author Chrumps
+ */
+$messages['pl'] = array(
+	'pagedisqus-title' => 'Podziel się swoją opinią',
+	'pagedisqus-noscript' => 'Zobacz wątek dyskusji.',
+	'pagedisqus-shortname' => 'Ustaw <code>$wgPageDisqusShortname</code> w LocalSettings.php',
+);
+
 /** Russian (русский)
  * @author Okras
  */
