@@ -88,6 +88,13 @@ $messages['ko'] = array(
 	'pagedisqus-shortname' => 'LocalSettings.php 에서 <code>$wgPageDisqusShortname</code> 를 설정해 주세요.',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'pagedisqus-title' => 'Maacht Är Meenung bekannt',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
