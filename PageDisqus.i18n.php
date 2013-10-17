@@ -35,11 +35,12 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Pintor Smeargle
  */
 $messages['es'] = array(
 	'pagedisqus-desc' => 'Integra el servicio de comentarios Disqus',
 	'pagedisqus-title' => 'Comparte tu opinión',
-	'pagedisqus-noscript' => 'Ver la discusión',
+	'pagedisqus-noscript' => 'Ver el hilo de discusión',
 	'pagedisqus-shortname' => 'Por favor define $wgPageDisqusShortname en LocalSettings.php',
 );
 
