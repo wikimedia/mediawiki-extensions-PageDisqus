@@ -24,6 +24,16 @@ $messages['qqq'] = array(
 	'pagedisqus-shortname' => 'Error message when the Disqus shortname is missing.',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'pagedisqus-desc' => 'Integrar el serviciu de comentarios Disqus',
+	'pagedisqus-title' => 'Comparta la so opinión',
+	'pagedisqus-noscript' => "Ver el filu d'alderique.",
+	'pagedisqus-shortname' => 'Defina <code>$wgPageDisqusShortname</code> en LocalSettings.php',
+);
+
 /** German (Deutsch)
  * @author Metalhead64
  */
