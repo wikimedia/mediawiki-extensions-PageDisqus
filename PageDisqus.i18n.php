@@ -135,6 +135,14 @@ $messages['ru'] = array(
 	'pagedisqus-shortname' => 'Пожалуйста, установите <code>$wgPageDisqusShortname</code> в LocalSettings.php',
 );
 
+/** Telugu (తెలుగు)
+ * @author Veeven
+ */
+$messages['te'] = array(
+	'pagedisqus-title' => 'మీ అభిప్రాయాన్ని పంచుకోండి',
+	'pagedisqus-noscript' => 'చర్చాహారాన్ని చూడండి.',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
