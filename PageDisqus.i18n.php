@@ -45,13 +45,14 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Pintor Smeargle
  */
 $messages['es'] = array(
 	'pagedisqus-desc' => 'Integra el servicio de comentarios Disqus',
 	'pagedisqus-title' => 'Comparte tu opinión',
 	'pagedisqus-noscript' => 'Ver el hilo de discusión',
-	'pagedisqus-shortname' => 'Por favor define $wgPageDisqusShortname en LocalSettings.php',
+	'pagedisqus-shortname' => 'Establece <code>$wgPageDisqusShortname</code> en LocalSettings.php',
 );
 
 /** Finnish (suomi)
@@ -114,6 +115,16 @@ $messages['mk'] = array(
 	'pagedisqus-title' => 'Споделете го вашето мислење',
 	'pagedisqus-noscript' => 'Погледајте ја нанижаната дискусија.',
 	'pagedisqus-shortname' => 'Задајте го <code>$wgPageDisqusShortname</code> во LocalSettings.php',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'pagedisqus-desc' => 'Intègra lo servici de comentaris Disqus',
+	'pagedisqus-title' => 'Partejar vòstre vejaire',
+	'pagedisqus-noscript' => 'Afichar lo fial de discussion',
+	'pagedisqus-shortname' => 'Definissètz <code>$wgPageDisqusShortname</code> dins LocalSettings.php',
 );
 
 /** Polish (polski)
