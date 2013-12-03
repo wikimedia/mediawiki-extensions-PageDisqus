@@ -81,6 +81,13 @@ $messages['gl'] = array(
 	'pagedisqus-shortname' => 'Defina <code>$wgPageDisqusShortname</code> en LocalSettings.php',
 );
 
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'pagedisqus-title' => 'Condividi la tua opinione',
+);
+
 /** Japanese (日本語)
  * @author Shirayuki
  */
