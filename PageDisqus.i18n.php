@@ -124,6 +124,16 @@ $messages['mk'] = array(
 	'pagedisqus-shortname' => 'Задајте го <code>$wgPageDisqusShortname</code> во LocalSettings.php',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'pagedisqus-desc' => 'Integreert de reactiedienst Disqus',
+	'pagedisqus-title' => 'Deel uw mening',
+	'pagedisqus-noscript' => 'Discussie bekijken',
+	'pagedisqus-shortname' => 'Voeg <code>$wgPageDisqusShortname</code> toe aan LocalSettings.php',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
