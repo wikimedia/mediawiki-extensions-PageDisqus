@@ -183,8 +183,11 @@ $messages['uk'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Liuxinyu970226
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
+	'pagedisqus-desc' => '整合Disqus评论服务',
 	'pagedisqus-title' => '分享您的观点',
+	'pagedisqus-noscript' => '查看该讨论串。',
 	'pagedisqus-shortname' => '请在LocalSettings.php内设置<code>$wgPageDisqusShortname</code>',
 );
