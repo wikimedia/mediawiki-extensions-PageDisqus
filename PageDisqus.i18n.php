@@ -89,9 +89,11 @@ $messages['it'] = array(
 );
 
 /** Japanese (日本語)
+ * @author Fryed-peach
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'pagedisqus-desc' => 'Disqus のコメントサービスを統合する',
 	'pagedisqus-title' => 'ご意見を共有しましょう',
 	'pagedisqus-noscript' => '議論スレッドを閲覧',
 	'pagedisqus-shortname' => 'LocalSettings.php 内で <code>$wgPageDisqusShortname</code> を設定してください',
