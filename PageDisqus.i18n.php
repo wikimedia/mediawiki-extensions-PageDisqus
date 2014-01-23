@@ -55,6 +55,13 @@ $messages['es'] = array(
 	'pagedisqus-shortname' => 'Establece <code>$wgPageDisqusShortname</code> en LocalSettings.php',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'pagedisqus-title' => 'نظر خود را به اشتراک بگذارید',
+);
+
 /** Finnish (suomi)
  */
 $messages['fi'] = array(
