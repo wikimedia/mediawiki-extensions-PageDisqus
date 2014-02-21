@@ -59,7 +59,10 @@ $messages['es'] = array(
  * @author Armin1392
  */
 $messages['fa'] = array(
+	'pagedisqus-desc' => 'تکمیل سرویس نظر‌دهی دیسکاس',
 	'pagedisqus-title' => 'نظر خود را به اشتراک بگذارید',
+	'pagedisqus-noscript' => 'مشاهدهٔ موضوع بحث.',
+	'pagedisqus-shortname' => 'لطفاً <code>$wgPageDisqusShortname</code> را در LocalSettings.php تنظیم کنید',
 );
 
 /** Finnish (suomi)
