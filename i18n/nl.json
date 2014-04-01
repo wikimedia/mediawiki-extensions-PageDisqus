@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Siebrand"
+        ]
+    },
+    "pagedisqus-desc": "Integreert de reactiedienst Disqus",
+    "pagedisqus-title": "Deel uw mening",
+    "pagedisqus-noscript": "Discussie bekijken",
+    "pagedisqus-shortname": "Voeg <code>$wgPageDisqusShortname</code> toe aan LocalSettings.php"
+}

@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Metalhead64"
+        ]
+    },
+    "pagedisqus-desc": "Integriert den Disqus-Kommentierungsdienst",
+    "pagedisqus-title": "Teile deine Meinung mit",
+    "pagedisqus-noscript": "Den Diskussionsthread ansehen.",
+    "pagedisqus-shortname": "Bitte <code>$wgPageDisqusShortname</code> in LocalSettings.php festlegen"
+}

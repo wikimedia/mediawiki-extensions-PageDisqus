@@ -1,0 +1,11 @@
+{
+    "@metadata": {
+        "authors": [
+            "Okras"
+        ]
+    },
+    "pagedisqus-desc": "Интеграция с сервисом комментариев Disqus",
+    "pagedisqus-title": "Комментарии",
+    "pagedisqus-noscript": "Посмотреть ветку обсуждения.",
+    "pagedisqus-shortname": "Пожалуйста, установите <code>$wgPageDisqusShortname</code> в LocalSettings.php"
+}
