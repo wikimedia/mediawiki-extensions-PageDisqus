@@ -4,5 +4,8 @@
             "Beta16"
         ]
     },
-    "pagedisqus-title": "Condividi la tua opinione"
+    "pagedisqus-desc": "Integra il servizio di commenti Disqus",
+    "pagedisqus-title": "Condividi la tua opinione",
+    "pagedisqus-noscript": "Mostra il thread di discussione.",
+    "pagedisqus-shortname": "Imposta <code>$wgPageDisqusShortname</code> in LocalSettings.php"
 }
