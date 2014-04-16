@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Fryed-peach",
-            "Shirayuki"
-        ]
-    },
-    "pagedisqus-desc": "Disqus のコメントサービスを統合する",
-    "pagedisqus-title": "ご意見を共有しましょう",
-    "pagedisqus-noscript": "議論スレッドを閲覧",
-    "pagedisqus-shortname": "LocalSettings.php 内で <code>$wgPageDisqusShortname</code> を設定してください"
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Shirayuki"
+		]
+	},
+	"pagedisqus-desc": "Disqus のコメントサービスを統合する",
+	"pagedisqus-title": "ご意見を共有しましょう",
+	"pagedisqus-noscript": "議論スレッドを閲覧",
+	"pagedisqus-shortname": "LocalSettings.php 内で <code>$wgPageDisqusShortname</code> を設定してください"
 }

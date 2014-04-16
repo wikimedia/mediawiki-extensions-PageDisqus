@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Toliño"
-        ]
-    },
-    "pagedisqus-desc": "Integra o servizo de comentarios Disqus",
-    "pagedisqus-title": "Comparta a súa opinión",
-    "pagedisqus-noscript": "Ver o fío de conversa.",
-    "pagedisqus-shortname": "Defina <code>$wgPageDisqusShortname</code> en LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"pagedisqus-desc": "Integra o servizo de comentarios Disqus",
+	"pagedisqus-title": "Comparta a súa opinión",
+	"pagedisqus-noscript": "Ver o fío de conversa.",
+	"pagedisqus-shortname": "Defina <code>$wgPageDisqusShortname</code> en LocalSettings.php"
 }

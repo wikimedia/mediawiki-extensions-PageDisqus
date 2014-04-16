@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "pagedisqus-desc": "{{desc|name=PageDisqus|url=https://www.mediawiki.org/wiki/Extension:PageDisqus}}",
-    "pagedisqus-title": "Title that appears at the bottom of every page, right before the Disqus comments.",
-    "pagedisqus-noscript": "Used as link text that appears instead of the Disqus comments when the user has JavaScript disabled.",
-    "pagedisqus-shortname": "Error message when the Disqus shortname is missing."
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"pagedisqus-desc": "{{desc|name=PageDisqus|url=https://www.mediawiki.org/wiki/Extension:PageDisqus}}",
+	"pagedisqus-title": "Title that appears at the bottom of every page, right before the Disqus comments.",
+	"pagedisqus-noscript": "Used as link text that appears instead of the Disqus comments when the user has JavaScript disabled.",
+	"pagedisqus-shortname": "Error message when the Disqus shortname is missing."
 }

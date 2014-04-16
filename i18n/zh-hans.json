@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Liuxinyu970226",
-            "Yfdyh000"
-        ]
-    },
-    "pagedisqus-desc": "整合Disqus评论服务",
-    "pagedisqus-title": "分享您的观点",
-    "pagedisqus-noscript": "查看该讨论串。",
-    "pagedisqus-shortname": "请在LocalSettings.php内设置<code>$wgPageDisqusShortname</code>"
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Yfdyh000"
+		]
+	},
+	"pagedisqus-desc": "整合Disqus评论服务",
+	"pagedisqus-title": "分享您的观点",
+	"pagedisqus-noscript": "查看该讨论串。",
+	"pagedisqus-shortname": "请在LocalSettings.php内设置<code>$wgPageDisqusShortname</code>"
 }

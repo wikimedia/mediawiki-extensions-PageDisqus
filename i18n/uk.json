@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Andriykopanytsia"
-        ]
-    },
-    "pagedisqus-desc": "Інтегрує службу коментування Disqus",
-    "pagedisqus-title": "Поділіться своєю думкою",
-    "pagedisqus-noscript": "Переглянути гілку дискусії.",
-    "pagedisqus-shortname": "Будь ласка, встановіть <code>$wgPageDisqusShortname</code> в LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Andriykopanytsia"
+		]
+	},
+	"pagedisqus-desc": "Інтегрує службу коментування Disqus",
+	"pagedisqus-title": "Поділіться своєю думкою",
+	"pagedisqus-noscript": "Переглянути гілку дискусії.",
+	"pagedisqus-shortname": "Будь ласка, встановіть <code>$wgPageDisqusShortname</code> в LocalSettings.php"
 }

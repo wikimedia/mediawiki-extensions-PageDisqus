@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Cedric31"
-        ]
-    },
-    "pagedisqus-desc": "Intègra lo servici de comentaris Disqus",
-    "pagedisqus-title": "Partejar vòstre vejaire",
-    "pagedisqus-noscript": "Afichar lo fial de discussion",
-    "pagedisqus-shortname": "Definissètz <code>$wgPageDisqusShortname</code> dins LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Cedric31"
+		]
+	},
+	"pagedisqus-desc": "Intègra lo servici de comentaris Disqus",
+	"pagedisqus-title": "Partejar vòstre vejaire",
+	"pagedisqus-noscript": "Afichar lo fial de discussion",
+	"pagedisqus-shortname": "Definissètz <code>$wgPageDisqusShortname</code> dins LocalSettings.php"
 }

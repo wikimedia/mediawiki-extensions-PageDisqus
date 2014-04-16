@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chrumps"
-        ]
-    },
-    "pagedisqus-title": "Podziel się swoją opinią",
-    "pagedisqus-noscript": "Zobacz wątek dyskusji.",
-    "pagedisqus-shortname": "Ustaw <code>$wgPageDisqusShortname</code> w LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"pagedisqus-title": "Podziel się swoją opinią",
+	"pagedisqus-noscript": "Zobacz wątek dyskusji.",
+	"pagedisqus-shortname": "Ustaw <code>$wgPageDisqusShortname</code> w LocalSettings.php"
 }

@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bjankuloski06"
-        ]
-    },
-    "pagedisqus-desc": "Ја интегрира службата за коментари Disqus",
-    "pagedisqus-title": "Споделете го вашето мислење",
-    "pagedisqus-noscript": "Погледајте ја нанижаната дискусија.",
-    "pagedisqus-shortname": "Задајте го <code>$wgPageDisqusShortname</code> во LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pagedisqus-desc": "Ја интегрира службата за коментари Disqus",
+	"pagedisqus-title": "Споделете го вашето мислење",
+	"pagedisqus-noscript": "Погледајте ја нанижаната дискусија.",
+	"pagedisqus-shortname": "Задајте го <code>$wgPageDisqusShortname</code> во LocalSettings.php"
 }

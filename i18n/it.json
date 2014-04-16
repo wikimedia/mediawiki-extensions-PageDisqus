@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16"
-        ]
-    },
-    "pagedisqus-desc": "Integra il servizio di commenti Disqus",
-    "pagedisqus-title": "Condividi la tua opinione",
-    "pagedisqus-noscript": "Mostra il thread di discussione.",
-    "pagedisqus-shortname": "Imposta <code>$wgPageDisqusShortname</code> in LocalSettings.php"
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"pagedisqus-desc": "Integra il servizio di commenti Disqus",
+	"pagedisqus-title": "Condividi la tua opinione",
+	"pagedisqus-noscript": "Mostra il thread di discussione.",
+	"pagedisqus-shortname": "Imposta <code>$wgPageDisqusShortname</code> in LocalSettings.php"
 }
