@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"pagedisqus-desc": "Integrerar kommentartjänsten Disqus",
+	"pagedisqus-title": "Dela din åsikt",
+	"pagedisqus-noscript": "Visa diskussionstråden.",
+	"pagedisqus-shortname": "Var god ställ in <code>$wgPageDisqusShortname</code> på LocalSettings.php"
+}
