@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hym411"
+			"Hym411",
+			"Revi"
 		]
 	},
 	"pagedisqus-desc": "Disqus 덧글 서비스 통합",
