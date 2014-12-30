@@ -35,8 +35,8 @@ class PageDisqus {
 			</script>
 			<br />
 			<div id="disqus_thread"></div>
-			<script type="text/javascript" src="http://disqus.com/forums' . $wgPageDisqusShortname . '/embed.js"></script>
-			<noscript><a href="http://disqus.com/forums' . $wgPageDisqusShortname . '/?url=ref">' . $noscript . '</a></noscript>';
+			<script type="text/javascript" src="http://disqus.com/forums/' . $wgPageDisqusShortname . '/embed.js"></script>
+			<noscript><a href="http://disqus.com/forums/' . $wgPageDisqusShortname . '/?url=ref">' . $noscript . '</a></noscript>';
 		return true;
 	}
 
