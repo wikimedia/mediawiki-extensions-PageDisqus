@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hym411",
-			"Revi"
+			"Revi",
+			"아라"
 		]
 	},
-	"pagedisqus-desc": "Disqus 덧글 서비스 통합",
+	"pagedisqus-desc": "Disqus 댓글 서비스를 통합합니다",
 	"pagedisqus-title": "당신의 의견 공유",
 	"pagedisqus-noscript": "토론 스레드 보기",
 	"pagedisqus-shortname": "LocalSettings.php 에서 <code>$wgPageDisqusShortname</code> 를 설정해 주세요."
