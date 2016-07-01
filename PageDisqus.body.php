@@ -27,16 +27,31 @@ class PageDisqus {
 		$title = wfMessage( 'pagedisqus-title' )->text();
 		$noscript = wfMessage( 'pagedisqus-noscript' )->text();
 
-		$data = $title . '
-			<script type="text/javascript">
-			var disqus_developer = 0;
-			var disqus_url = "' . $wgRequest->getFullRequestURL() . '";
-			var disqus_title = "' . $wgTitle->getText() . '";
-			</script>
-			<br />
-			<div id="disqus_thread"></div>
-			<script type="text/javascript" src="http://disqus.com/forums/' . $wgPageDisqusShortname . '/embed.js"></script>
-			<noscript><a href="http://disqus.com/forums/' . $wgPageDisqusShortname . '/?url=ref">' . $noscript . '</a></noscript>';
+		$page_url = $wgRequest->getFullRequestURL();
+		$page_identifier = $wgPageDisqusShortname;
+
+        $data = <<<HTML
+<br><hr>
+{$title}
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "{$page_url}";
+        this.page.identifier = "{$page_identifier}";
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+
+        s.src = '//{$page_identifier}.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+HTML;
+	
+
 		return true;
 	}
 
@@ -69,7 +84,7 @@ class PageDisqus {
 			for(var i = 0; i < links.length; i++)
 			if(links[i].href.indexOf('#disqus_thread') >= 0)
 			query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-			document.write('<script charset=\"utf-8\" type=\"text/javascript\" src=\"http://disqus.com/forums/" . $wgPageDisqusShortname . "/get_num_replies.js' + query + '\"></' + 'script>');
+			document.write('<script charset=\"utf-8\" type=\"text/javascript\" src=\"//disqus.com/forums/" . $wgPageDisqusShortname . "/get_num_replies.js' + query + '\"></' + 'script>');
 			})();
 			//]]>
 			</script>";
