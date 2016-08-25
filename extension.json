@@ -1,0 +1,24 @@
+{
+	"name": "PageDisqus",
+	"version": "0.4",
+	"author": [
+		"Michael Platzer",
+		"[[mw:User:Felipe Schenone|Felipe Schenone]]"
+	],
+	"url": "http://www.mediawiki.org/wiki/Extension:PageDisqus",
+	"descriptionmsg": "pagedisqus-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"PageDisqus": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PageDisqus": "PageDisqus.php"
+	},
+	"Hooks": {
+		"SkinAfterContent": "PageDisqus::onSkinAfterContent",
+		"SkinAfterBottomScripts": "PageDisqus::onSkinAfterBottomScripts"
+	},
+	"manifest_version": 1
+}
