@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pagedisqus-desc": "Integrerer Disqus-kommentartjenesten",
+	"pagedisqus-title": "Del din mening",
+	"pagedisqus-noscript": "Vis diskusjonstråden.",
+	"pagedisqus-shortname": "Sett <code>$wgPageDisqusShortname</code> i LocalSettings.php"
+}
