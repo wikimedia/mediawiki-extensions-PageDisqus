@@ -50,7 +50,7 @@ class PageDisqus {
 </script>
 <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 HTML;
-	
+
 
 		return true;
 	}

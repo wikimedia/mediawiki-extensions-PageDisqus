@@ -1,6 +1,6 @@
 {
 	"name": "PageDisqus",
-	"version": "0.4",
+	"version": "0.5",
 	"author": [
 		"Michael Platzer",
 		"[[mw:User:Felipe Schenone|Felipe Schenone]]"
@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"PageDisqus": "PageDisqus.php"
+		"PageDisqus": "PageDisqus.class.php"
 	},
 	"Hooks": {
 		"SkinAfterContent": "PageDisqus::onSkinAfterContent",
