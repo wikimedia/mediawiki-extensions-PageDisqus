@@ -4,5 +4,8 @@
 			"Red Winged Duck"
 		]
 	},
-	"pagedisqus-desc": "Інтэгруе службу камэнтаваньня Disqus"
+	"pagedisqus-desc": "Інтэгруе службу камэнтаваньня Disqus",
+	"pagedisqus-title": "Падзяліцеся вашым меркаваньнем",
+	"pagedisqus-noscript": "Праглядзець галіну абмеркаваньня.",
+	"pagedisqus-shortname": "Калі ласка, вызначыце <code>$wgPageDisqusShortname</code> ў LocalSettings.php"
 }
