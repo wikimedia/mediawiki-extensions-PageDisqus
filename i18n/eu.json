@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Subi"
+		]
+	},
+	"pagedisqus-title": "Plazaratu zure iritzia",
+	"pagedisqus-noscript": "Ikusi eztabaidaren haria.",
+	"pagedisqus-shortname": "Jar ezazu <code>$wgPageDisqusShortname</code> LocalSettings.php fitxategian, mesedez."
+}
