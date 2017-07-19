@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"pagedisqus-desc": "Integra o serviço de comentários Disqus",
+	"pagedisqus-title": "Partilhe a sua opinião",
+	"pagedisqus-noscript": "Ver o tópico de discussão.",
+	"pagedisqus-shortname": "Defina <code>$wgPageDisqusShortname</code> no ficheiro Localsettings.php, por favor"
+}
