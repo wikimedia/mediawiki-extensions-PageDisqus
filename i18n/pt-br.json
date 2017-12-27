@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"pagedisqus-desc": "Integra o serviço de comentários Disqus",
+	"pagedisqus-title": "Compartilhe sua opinião",
+	"pagedisqus-noscript": "Ver o tópico de discussão.",
+	"pagedisqus-shortname": "Defina <code>$wgPageDisqusShortname</code> no arquivo Localsettings.php, por favor"
+}
