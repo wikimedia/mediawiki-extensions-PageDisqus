@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"pagedisqus-desc": "整合 Disqus 評論服務",
+	"pagedisqus-title": "分享您的看法",
+	"pagedisqus-noscript": "檢視討論串",
+	"pagedisqus-shortname": "請在 LocalSettings.php 設定 <code>$wgPageDisqusShortname</code>"
+}
