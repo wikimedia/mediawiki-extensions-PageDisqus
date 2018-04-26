@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nikosgranturismogt"
+		]
+	},
+	"pagedisqus-desc": "Ενσωματώνει την υπηρεσία σχολιασμού Disqus",
+	"pagedisqus-title": "Μοιραστείτε την γνώμη σας",
+	"pagedisqus-noscript": "Προβολή του νήματος συζήτησης.",
+	"pagedisqus-shortname": "Παρακαλώ ορίστε το <code>$wgPageDisqusShortname</code> στο LocalSettings.php"
+}
