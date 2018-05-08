@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"ديفيد"
+		]
+	},
+	"pagedisqus-desc": "يكامل خدمة التعليقات Disqus",
+	"pagedisqus-title": "مشاركة رأيك",
+	"pagedisqus-noscript": "عرض موضوع المناقشة.",
+	"pagedisqus-shortname": "يُرجَى تعيين <code>$wgPageDisqusShortname</code> في LocalSettings.php"
+}
