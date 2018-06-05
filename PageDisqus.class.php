@@ -58,6 +58,11 @@ HTML;
 	static function onSkinAfterBottomScripts( $skin, &$text ) {
 		global $wgPageDisqusShortname, $wgPageDisqusExclude, $wgTitle, $wgRequest;
 
+		if ( empty( $wgPageDisqusShortname ) ) {
+			wfWarn( wfMessage( 'pagedisqus-shortname' )->text() );
+			return true;
+		}
+
 		if ( $wgRequest->getVal( 'action', 'view' ) != 'view' ) {
 			return true;
 		}
@@ -68,11 +73,6 @@ HTML;
 					return true;
 				}
 			}
-		}
-
-		if ( empty( $wgPageDisqusShortname ) ) {
-			$shortname = wfMessage( 'pagedisqus-shortname' )->text();
-			exit( $shortname );
 		}
 
 		$text .= "<script type=\"text/javascript\">
