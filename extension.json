@@ -8,6 +8,10 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:PageDisqus",
 	"descriptionmsg": "pagedisqus-desc",
 	"type": "other",
+	"config": {
+		"_prefix": "Disqus",
+		"Shortname": null
+	},
 	"MessagesDirs": {
 		"PageDisqus": [
 			"i18n"
