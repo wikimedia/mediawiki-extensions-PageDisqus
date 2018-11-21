@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"pagedisqus-desc": "Indegre 'u servizie de commende Disqus",
+	"pagedisqus-title": "Condivide l'opiniona toje",
+	"pagedisqus-noscript": "'Ndruche l'argomende d'u 'ngazzamende.",
+	"pagedisqus-shortname": "'Mboste <code>$wgPageDisqusShortname</code> jndr'à 'u LocalSettings.php"
+}
