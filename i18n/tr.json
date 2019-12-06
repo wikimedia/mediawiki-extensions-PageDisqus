@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK"
+		]
+	},
+	"pagedisqus-desc": "Disqus yorum servisini bütünleştirir",
+	"pagedisqus-title": "Fikrini paylaş",
+	"pagedisqus-noscript": "Tartışma başlığını görüntüleyin.",
+	"pagedisqus-shortname": "Lütfen LocalSettings.php içinde <code>$wgPageDisqusShortname</code> değerini ayarlayın"
+}
