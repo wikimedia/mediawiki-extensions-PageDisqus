@@ -1,16 +1,17 @@
 {
 	"name": "PageDisqus",
-	"version": "0.5",
+	"version": "0.6",
 	"author": [
 		"Michael Platzer",
-		"[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]"
+		"[https://www.mediawiki.org/wiki/User:Sophivorus Sophivorus]"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:PageDisqus",
 	"descriptionmsg": "pagedisqus-desc",
 	"type": "other",
 	"config": {
-		"_prefix": "Disqus",
-		"Shortname": null
+		"PageDisqusShortname": "",
+		"PageDisqusPageBlacklist": [],
+		"PageDisqusNamespaceWhitelist": [ 0 ]
 	},
 	"MessagesDirs": {
 		"PageDisqus": [
