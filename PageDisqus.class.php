@@ -22,7 +22,8 @@ class PageDisqus {
 		}
 
 		$categories = $skin->getTitle()->getParentCategories();
-		foreach ( $categories as $category ) {
+		foreach ( $categories as $key => $value ) {
+			$category = substr( $key, strpos( $key, ':' ) + 1 );
 			if ( in_array( $category, $wgPageDisqusCategoryBlacklist ) ) {
 				return true;
 			}
