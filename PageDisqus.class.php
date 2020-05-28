@@ -3,7 +3,11 @@
 class PageDisqus {
 
 	static function onSkinAfterContent( &$data, $skin )  {
-		global $wgPageDisqusShortname, $wgPageDisqusNamespaceWhitelist, $wgPageDisqusPageBlacklist, $mediaWiki;
+		global $mediaWiki,
+			$wgPageDisqusShortname,
+			$wgPageDisqusPageBlacklist,
+			$wgPageDisqusCategoryBlacklist,
+			$wgPageDisqusNamespaceWhitelist;
 
 		if ( empty( $wgPageDisqusShortname ) ) {
 			exit( wfMessage( 'pagedisqus-shortname' ) );
@@ -15,6 +19,13 @@ class PageDisqus {
 
 		if ( !in_array( $skin->getTitle()->getNamespace(), $wgPageDisqusNamespaceWhitelist ) ) {
 			return true;
+		}
+
+		$categories = $skin->getTitle()->getParentCategories();
+		foreach ( $categories as $category ) {
+			if ( in_array( $category, $wgPageDisqusCategoryBlacklist ) ) {
+				return true;
+			}
 		}
 
 		if ( in_array( $skin->getTitle()->getFullText(), $wgPageDisqusPageBlacklist ) ) {
