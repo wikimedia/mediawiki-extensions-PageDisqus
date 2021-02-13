@@ -10,7 +10,7 @@ class PageDisqus {
 			$wgPageDisqusNamespaceWhitelist;
 
 		if ( empty( $wgPageDisqusShortname ) ) {
-			exit( wfMessage( 'pagedisqus-shortname' ) );
+			throw new MWException( wfMessage( 'pagedisqus-shortname' )->text() );
 		}
 
 		if ( $mediaWiki->getAction() !== 'view' ) {
