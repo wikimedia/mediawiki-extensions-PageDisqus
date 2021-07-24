@@ -36,7 +36,6 @@ class PageDisqus {
 		$title = wfMessage( 'pagedisqus-title' );
 		$noscript = wfMessage( 'pagedisqus-noscript' );
 
-		$pageURL = $skin->getTitle()->getFullURL();
 		$pageID = $skin->getTitle()->getArticleID();
 
         $data = <<<HTML
@@ -44,7 +43,7 @@ class PageDisqus {
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-        this.page.url = "{$pageURL}";
+        this.page.url = window.location;
         this.page.identifier = "{$pageID}";
     };
     (function() {
