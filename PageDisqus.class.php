@@ -3,17 +3,17 @@
 class PageDisqus {
 
 	static function onSkinAfterContent( &$data, $skin )  {
-		global $mediaWiki,
-			$wgPageDisqusShortname,
+		global $wgPageDisqusShortname,
 			$wgPageDisqusPageBlacklist,
 			$wgPageDisqusCategoryBlacklist,
 			$wgPageDisqusNamespaceWhitelist;
 
 		if ( empty( $wgPageDisqusShortname ) ) {
-			throw new MWException( wfMessage( 'pagedisqus-shortname' )->text() );
+			$data = Html::rawElement( 'span', [ 'class' => 'error' ], wfMessage( 'pagedisqus-shortname' ) );
+			return true;
 		}
 
-		if ( $mediaWiki->getAction() !== 'view' ) {
+		if ( Action::getActionName( $skin->getContext() ) !== 'view' ) {
 			return true;
 		}
 
@@ -61,14 +61,14 @@ HTML;
 	}
 
 	static function onSkinAfterBottomScripts( $skin, &$text ) {
-		global $wgPageDisqusShortname, $wgPageDisqusNamespaceWhitelist, $wgPageDisqusPageBlacklist, $mediaWiki;
+		global $wgPageDisqusShortname, $wgPageDisqusNamespaceWhitelist, $wgPageDisqusPageBlacklist;
 
 		if ( empty( $wgPageDisqusShortname ) ) {
 			wfWarn( wfMessage( 'pagedisqus-shortname' ) );
 			return true;
 		}
 
-		if ( $mediaWiki->getAction() !== 'view' ) {
+		if ( Action::getActionName( $skin->getContext() ) !== 'view' ) {
 			return true;
 		}
 
