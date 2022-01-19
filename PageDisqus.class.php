@@ -57,7 +57,7 @@ class PageDisqus {
 		$pageID = $skin->getTitle()->getArticleID();
 
         $data = <<<HTML
-<h2>{$title}</h2>
+<h2 id="disqus_title">{$title}</h2>
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
