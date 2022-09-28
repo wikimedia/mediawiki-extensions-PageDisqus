@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"pagedisqus-desc": "Integra le servicio de commentos Disqus",
+	"pagedisqus-title": "Condivider tu opinion",
+	"pagedisqus-noscript": "Vider le filo de discussion.",
+	"pagedisqus-shortname": "Per favor defini <code>$wgPageDisqusShortname</code> in LocalSettings.php"
+}
