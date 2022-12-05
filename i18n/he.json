@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"pagedisqus-desc": "שילב שירות התגובות Disqus",
+	"pagedisqus-title": "שיתוף הדעה שלך",
+	"pagedisqus-noscript": "צפייה בשרשור הדיון.",
+	"pagedisqus-shortname": "יש להגדיר את <code>$wgPageDisqusShortname</code> ב־LocalSettings.php"
+}
