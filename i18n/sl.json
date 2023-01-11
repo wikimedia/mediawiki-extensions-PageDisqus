@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"pagedisqus-desc": "Integrira storitev komentiranja Disqus",
+	"pagedisqus-title": "Delite svoje mnenje",
+	"pagedisqus-noscript": "Ogled niti razprave.",
+	"pagedisqus-shortname": "Prosimo, v LocalSettings.php nastavite <code>$wgPageDisqusShortname</code>"
+}
