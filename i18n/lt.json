@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"pagedisqus-desc": "Integruoja Disqus komentavimo paslaugą",
+	"pagedisqus-title": "Pasidalinkite savo nuomone",
+	"pagedisqus-noscript": "Žiūrėti diskusijų temą.",
+	"pagedisqus-shortname": "Nustatykite <code>$wgPageDisqusShortname</code> LocalSettings.php"
+}
