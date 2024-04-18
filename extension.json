@@ -8,6 +8,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:PageDisqus",
 	"descriptionmsg": "pagedisqus-desc",
 	"type": "other",
+	"license-name": "GPL-3.0-or-later",
 	"requires": {
 		"MediaWiki": ">= 1.31.0"
 	},
