@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Html\Html;
+
 class PageDisqus {
 
 	static function onSkinAfterContent( &$data, $skin )  {
