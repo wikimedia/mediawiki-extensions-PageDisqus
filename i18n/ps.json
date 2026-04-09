@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"pagedisqus-desc": "د ډيسکاس څرگندونې خدمتونو بشپړوونکی",
+	"pagedisqus-title": "خپل اند مو شريک کړئ",
+	"pagedisqus-noscript": "د شننې شننلړ کتل.",
+	"pagedisqus-shortname": "مهرباني وکړئ په LocalSettings.php کې <code>$wgPageDisqusShortname</code> وټاکئ."
+}
