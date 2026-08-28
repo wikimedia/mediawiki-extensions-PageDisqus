@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"pagedisqus-desc": "Integruje komentárovú službu Disqus",
+	"pagedisqus-title": "Podeľte sa o svoj názor",
+	"pagedisqus-noscript": "Zobraziť vlákno diskusie.",
+	"pagedisqus-shortname": "Nastavte, prosím, <code>$wgPageDisqusShortname</code> v súbore LocalSettings.php"
+}
